@@ -1,0 +1,29 @@
+/*Utility classes*/
+
+.light-in-dark{
+  color: primary(1) !important;
+}
+.no-hover{
+  &:hover{
+    background: inherit;
+  }
+}
+.no-extra{
+  margin: 0!important;
+  padding: 0!important;
+}
+.dark_overlay{
+  background: primary(0.5);
+}
+.bold{
+  font-weight: bold !important;
+}
+.thin{
+  font-weight: lighter !important;
+}
+.regular{
+  font-weight: normal;
+}
+.small{
+  font-size: small;
+}

@@ -1,6 +1,6 @@
 <template>
         <div>
-            <v-app-bar color="indigo" dark>
+            <v-app-bar flat color="indigo" dark>
                 <span class="hidden-md-and-up">
                     <v-menu>
                         <template v-slot:activator="{ on }">

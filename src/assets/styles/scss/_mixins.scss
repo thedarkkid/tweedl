@@ -1,0 +1,7 @@
+@mixin opacity($value){
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+$value")";       /* IE 8 */
+  filter: alpha(opacity=$value);  /* IE 5-7 */
+  -moz-opacity: $value;          /* Netscape */
+  -khtml-opacity: $value;        /* Safari 1.x */
+  opacity: $value;
+}
