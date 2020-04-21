@@ -1,6 +1,6 @@
 <template>
     <section>
-        <v-card flat dark color="#596053" class="" max-width="400">
+        <v-card flat dark color="#596053" min-width="32 0" max-width="350">
 
             <v-list-item two-line>
                 <v-list-item-content>

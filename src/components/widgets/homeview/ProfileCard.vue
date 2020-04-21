@@ -1,6 +1,6 @@
 <template>
     <section>
-        <v-card outlined max-width="350">
+        <v-card outlined min-width="320" max-width="350">
             <v-card tile class="mx-auto" >
                 <v-img height="100%" src="https://cdn.vuetifyjs.com/images/cards/server-room.jpg">
                     <v-row align="center" class="fill-height">

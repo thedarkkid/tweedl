@@ -6,12 +6,12 @@
                     <h1 class="heading">Profile</h1>
                 </v-col>
             </v-row>
-            <v-row>
-                <v-col cols="3">
+            <v-row justify="center">
+                <v-col sm="12" md="6" lg="4"  xl="3">
                     <ProfileCard/>
                 </v-col>
-                <v-col cols="3">
-                    <StatCard />
+                <v-col>
+                    <StatCard class="ml-1"/>
                 </v-col>
             </v-row>
         </v-container>
