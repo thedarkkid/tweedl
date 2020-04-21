@@ -10,7 +10,7 @@
                 <v-col sm="12" md="6" lg="4"  xl="3">
                     <ProfileCard/>
                 </v-col>
-                <v-col>
+                <v-col  align-self="start">
                     <StatCard class="ml-1"/>
                 </v-col>
             </v-row>
