@@ -25,5 +25,13 @@
   font-weight: normal;
 }
 .small{
-  font-size: small;
+  font-size: smaller;
+}
+.overflow-scroll{
+  overflow: scroll;
+}
+
+.inherit-size{
+  width: inherit;
+  height: inherit;
 }

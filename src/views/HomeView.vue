@@ -14,6 +14,12 @@
                     <StatCard class="ml-1"/>
                 </v-col>
             </v-row>
+            <v-row>
+                <v-col>
+                    <h1 class="heading">Recents Tweets</h1>
+                    <Tweets />
+                </v-col>
+            </v-row>
         </v-container>
     </section>
 </template>
@@ -22,9 +28,11 @@
 // @ is an alias to /src
 import ProfileCard from "../components/widgets/homeview/ProfileCard";
 import StatCard from "../components/widgets/homeview/StatCard";
+import Tweets from "../components/widgets/homeview/Tweets";
 export default {
   name: 'HomeView',
   components: {
+      Tweets,
    StatCard,
    ProfileCard
   }
