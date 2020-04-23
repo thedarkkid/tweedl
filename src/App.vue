@@ -18,10 +18,5 @@ export default {
 };
 </script>
 <style lang="scss">
-  .horizontal-list{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-  }
+
 </style>

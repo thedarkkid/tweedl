@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <v-content>
         <v-container fluid>
             <v-row>
                 <v-col>
@@ -21,7 +21,7 @@
                 </v-col>
             </v-row>
         </v-container>
-    </section>
+    </v-content>
 </template>
 
 <script>
