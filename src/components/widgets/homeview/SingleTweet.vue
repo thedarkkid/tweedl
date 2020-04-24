@@ -1,6 +1,6 @@
 <template>
     <section>
-        <v-card color="#333D4A" dark width="400" min-height="200" max-height="300">
+        <v-card color="#333D4A" dark width="400" height="auto">
             <v-card-title class="pb-0">
                 <v-row>
 
@@ -12,13 +12,13 @@
                                     </v-icon>
                                 </v-col>
                                 <v-col class="">
+                                    <span class="d-sm-block d-md-inline subheading mr-2 ">256</span>
                                     <v-icon class="mr-1">mdi-heart</v-icon>
-                                    <span class="subheading mr-2 ">256</span>
                                 </v-col>
                                 <v-col>
                                     <span class="mr-1">·</span>
                                     <v-icon class="mr-1">mdi-share-variant</v-icon>
-                                    <span class="subheading">45</span>
+                                    <span class="d-sm-block d-lg-inline subheading">45</span>
                                 </v-col>
                             </v-row>
                         </v-list-item>

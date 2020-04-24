@@ -1,13 +1,15 @@
 <template>
     <v-app>
-        <Header/>
-        <slot></slot>
+        <Header />
+        <slot/>
     </v-app>
 </template>
 
 <script>
+    import Header from "../widgets/Header";
     export default {
-        name: "HeaderAlone"
+        name: "HeaderAlone",
+        components: {Header}
     }
 </script>
 

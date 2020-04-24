@@ -1,7 +1,7 @@
 <template>
     <section>
         <v-row>
-            <v-col cols="12" lg="4" xl="3" sm="6" md="6" v-for="item in items" :key="item.no">
+            <v-col cols="12" lg="3" xl="4" sm="6" md="6" v-for="item in items" :key="item.no">
                 <SingleTweet />
             </v-col>
         </v-row>
